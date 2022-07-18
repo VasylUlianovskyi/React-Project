@@ -45,8 +45,8 @@
 .os-form-checkbox>input:checked+label::before { border-color:#24b4c5; background-color:#24b4c5; content:"✓"; color:#fff; text-align:center }
 .os-form-checkbox>label { display:flex; align-items:center; font-size:1rem; font-weight:300; color:#2c2c2c; cursor:pointer }
 .os-form-checkbox>label::before { content:""; flex-shrink:0; display:inline-block; margin-right:12px; border:1px solid #979797; width:20px; height:17px; border-radius:3px }
-.os-filters-panel-item { display:flex; align-items:center; justify-content:space-between; margin-bottom:10px }
-.os-filters-panel-item .os-form-checkbox { margin-bottom:0 }
+.os-filters-panel{align-items:center; justify-content:space-between; margin-bottom:10px }
+.os-filters-panel.os-form-checkbox { margin-bottom:0 }
 .os-pagination { display:flex; align-items:center; justify-content:center }
 .os-pagination a { line-height:1; text-decoration:none }
 .os-pagination .next,.os-pagination .previous { color:#000 }
